@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear115" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageview8" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ic_arrow_back_white" android:scaleType="fitCenter"/>
+        <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview10" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DESENVOLVIMENTO" android:layout_weight="1"/>
+        <ImageView android:id="@+id/imageview2" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/b5184592" android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <ScrollView android:id="@+id/vscroll1" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linear116" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear118" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear117" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview1" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/f20240108_152604_641" app:civ_border_color="#008dcd" app:civ_border_overlay="true" app:civ_border_width="3dp" app:civ_circle_background_color="#ffffff"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear121" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/linear119" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="100dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview11" android:paddingLeft="8dp" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KNOX"/>
+                        <TextView android:textSize="12sp" android:textStyle="italic|bold" android:textColor="#9e9e9e" android:id="@+id/textview12" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DESENVOLVEDOR/DONO"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/imageview10" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_keyboard_arrow_right_grey" android:scaleType="fitCenter"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear120" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear122" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview2" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/j0240108_212743_862" app:civ_border_color="#008dcd" app:civ_border_overlay="true" app:civ_border_width="3dp" app:civ_circle_background_color="#ffffff"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear123" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/linear124" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="100dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview13" android:paddingLeft="8dp" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RAPOSO"/>
+                        <TextView android:textSize="12sp" android:textStyle="italic|bold" android:textColor="#9e9e9e" android:id="@+id/textview14" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SUB DONO/SEGURANÇA INTERNA"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/imageview11" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_keyboard_arrow_right_grey" android:scaleType="fitCenter"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear125" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear126" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview3" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/cvvc" app:civ_border_color="#008dcd" app:civ_border_overlay="true" app:civ_border_width="3dp" app:civ_circle_background_color="#ffffff"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear127" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/linear128" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="100dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview15" android:paddingLeft="8dp" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BOB"/>
+                        <TextView android:textSize="12sp" android:textStyle="italic|bold" android:textColor="#9e9e9e" android:id="@+id/textview16" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DESENVOLVEDOR/EX DONO"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/imageview12" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_keyboard_arrow_right_grey" android:scaleType="fitCenter"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear129" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear130" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview4" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/u0240109_124553_143" app:civ_border_color="#008dcd" app:civ_border_overlay="true" app:civ_border_width="3dp" app:civ_circle_background_color="#ffffff"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear131" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/linear132" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="100dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview17" android:paddingLeft="8dp" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PHZN"/>
+                        <TextView android:textSize="12sp" android:textStyle="italic|bold" android:textColor="#9e9e9e" android:id="@+id/textview18" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FORNECEDOR DE CONTAS LARANJA "/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/imageview13" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_keyboard_arrow_right_grey" android:scaleType="fitCenter"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear133" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear135" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview5" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/j0109_131455_168" app:civ_border_color="#008dcd" app:civ_border_overlay="true" app:civ_border_width="3dp" app:civ_circle_background_color="#ffffff"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear136" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/linear137" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="100dp">
+                        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview19" android:paddingLeft="8dp" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SNOW"/>
+                        <TextView android:textSize="12sp" android:textStyle="italic|bold" android:textColor="#9e9e9e" android:id="@+id/textview20" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DESENVOLVEDOR DE MÉTODOS VIP"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/imageview57" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_keyboard_arrow_right_grey" android:scaleType="fitCenter"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

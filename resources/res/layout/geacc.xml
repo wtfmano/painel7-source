@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear115" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageview1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ic_arrow_back_white" android:scaleType="fitCenter"/>
+        <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GERAR CC" android:layout_weight="1"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear217" android:padding="8dp" android:layout_width="18dp" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear216" android:padding="8dp" android:layout_width="18dp" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/imageview3" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/f1384060" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear215" android:padding="8dp" android:layout_width="18dp" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/imageview2" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/b5184592" android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <ScrollView android:id="@+id/vscroll1" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linear116" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview6" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Geradores de CC:"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear119" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear121" android:background="#9e9e9e" android:layout_width="130dp" android:layout_height="100dp" android:layout_marginLeft="15dp">
+                    <ImageView android:id="@+id/imageview6" android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/h20231021110911_2" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NamsoGen🔥"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview11" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chekers VIP Para Verificar [CC/GG]:"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear128" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear129" android:background="#9e9e9e" android:layout_width="130dp" android:layout_height="100dp">
+                    <ImageView android:id="@+id/imageview11" android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/chk" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CHK [CC VISA]"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear130" android:background="#9e9e9e" android:layout_width="130dp" android:layout_height="100dp" android:layout_marginLeft="15dp">
+                    <ImageView android:id="@+id/imageview12" android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/chk" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CHK  [CC]👑🔥"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear125" android:background="#9e9e9e" android:layout_width="130dp" android:layout_height="100dp" android:layout_marginLeft="15dp">
+                    <ImageView android:id="@+id/imageview9" android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/chk" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview13" android:paddingLeft="8dp" android:paddingTop="3dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CHK [CC]👑🔥"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear123" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear124" android:background="#9e9e9e" android:layout_width="130dp" android:layout_height="100dp">
+                    <ImageView android:id="@+id/imageview14" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/h4944377" android:scaleType="fitCenter"/>
+                    <ImageView android:id="@+id/imageview8" android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/chk" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CHK [CC/GG]"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview19" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MATRIZES E BINS PARA GERAR A SUA CC:"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear127" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/button5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Acessar Matrizes/Bins"/>
+            </LinearLayout>
+            <Button android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/button6" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pack de bins sem vbv"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear132" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

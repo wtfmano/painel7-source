@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/vscroll1" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linear1" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear89" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear96" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear234" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear261" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear235" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                                <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview116" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Painel Do 7️⃣"/>
+                            </LinearLayout>
+                            <ImageView android:id="@+id/imageview81" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/g1170584" android:scaleType="fitCenter"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear162" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview82" android:layout_width="150dp" android:layout_height="150dp" android:src="@drawable/r20240310232330" android:scaleType="fitCenter"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview117" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Conhecimento é a Melhor Arma Eu Tenho Um Arcenal !!!"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear185" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear200" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12sp" android:textStyle="italic|bold" android:textColor="#ffffff" android:id="@+id/textview118" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FUNÇÕES:"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_metodos" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview7" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/c4529975" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear326" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/metodos_vip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Metodos Vip"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_virarsaldo" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview8" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/b2695969" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear321" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/virar_sald" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Virar Saldo"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_gerarcc" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview19" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/j538969" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear330" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/gerarcc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gerar CC"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_laras" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview17" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/h20231022222910" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear320" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/laras" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contas Lara"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_rgfalso" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview22" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/v3861172" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear331" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/rgfalso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RG Falso "/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear1track" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview2" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/nfcgoh" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear339" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/track" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Track nfc"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linearnotas" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview11" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/v2916115" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear332" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/notas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notas Fake"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/lineartelas" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview15" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/x5447882" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear333" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/telasfk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Telas FK"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_editaveis" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview46" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/imagesdff_2" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear318" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/editaveis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Editáveis"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_plrs" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview62" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/j542787" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear322" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/plrs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PLR&apos;s"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_bots" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview16" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/h4944377" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear325" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/bots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bots"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_apks" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview34" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/b039697" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear327" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/apks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apks Vip"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear_cursos" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview39" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/f83328" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear329" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/cursos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cursos"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear2ia" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview40" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/u5278402" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear336" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/ia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Menu I.A"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear2packs" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview44" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/g1949605" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear343" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/packssssssss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Packs"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear2maisopicoa" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginBottom="20dp">
+                    <ImageView android:id="@+id/imageview68" android:layout_width="60dp" android:layout_height="match_parent" android:src="@drawable/g1170584" android:scaleType="fitCenter"/>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear350" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/maisofcs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Config"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

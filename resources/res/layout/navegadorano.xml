@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear115" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageview1" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ic_arrow_back_white" android:scaleType="fitCenter"/>
+        <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@+id/textview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NAVEGADOR" android:layout_weight="1"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear216" android:padding="8dp" android:layout_width="18dp" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear215" android:padding="8dp" android:layout_width="18dp" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/imageview2" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/b5184592" android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear217" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:id="@+id/hscroll1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear218" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="90dp">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear323" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/imageview3" android:layout_width="85dp" android:layout_height="85dp" android:src="@drawable/googlej" android:scaleType="fitCenter"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear317" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/imageview4" android:layout_width="85dp" android:layout_height="85dp" android:src="@drawable/b20231104154015" android:scaleType="fitCenter"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear318" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/imageview5" android:layout_width="85dp" android:layout_height="85dp" android:src="@drawable/v20240111234517" android:scaleType="fitCenter"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear319" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/imageview6" android:layout_width="85dp" android:layout_height="85dp" android:src="@drawable/j0240111234658" android:scaleType="fitCenter"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear320" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/imageview8" android:layout_width="85dp" android:layout_height="85dp" android:src="@drawable/j0240111235039" android:scaleType="fitCenter"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear322" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/imageview7" android:layout_width="85dp" android:layout_height="85dp" android:src="@drawable/googlej" android:scaleType="fitCenter"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear321" android:padding="8dp" android:layout_width="40dp" android:layout_height="match_parent"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <WebView android:id="@+id/webview1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>
